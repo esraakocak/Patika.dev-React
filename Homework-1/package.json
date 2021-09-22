@@ -1,0 +1,16 @@
+{
+  "name": "patika-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "esra",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "node-fetch": "^3.0.0"
+  }
+}
