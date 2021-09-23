@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.App {
+height: 100vh;
+display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position:center ;
+  position: relative;
+  background-size: cover;
+
+}
+
+.searchInput {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchBtn button{
+  margin-left: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 10px;
+  height: 30px;
+  outline: none;
+
+  display:flex;
+  align-items:center ;
+  justify-content: center;
+  border: none;
+  border-radius: 3px;
+  font-family:  'Oswald', sans-serif;
+  font-weight: bold;
+
+
+
+}
+.input {
+  outline: none;
+  height: 40px;
+  box-sizing: border-box;
+  width:100% ;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid firebrick;
+  background:floralwhite;
+  color: black;
+  font-family:  'Oswald', sans-serif;
+  padding: 10px 40px 10px 10px;
+  text-transform: uppercase;
+}
+.weatherWrapper {
+  position: absolute;
+  top: 25%;
+  font-family:  'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: blueviolet;
+}
